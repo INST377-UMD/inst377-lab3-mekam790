@@ -1,0 +1,53 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+.marginals {
+    background-color: rgb(128, 73, 42);
+    color: white;
+    text-align: center;
+    margin: 8px;
+    padding: 16px;
+    clear:both;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    background-color: rgb(193, 176, 121);
+    margin: 8px;
+}
+.navitem a {
+    float:left;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+}
+.navitem a:hover {
+    background-color:rgb(101, 61, 2);
+    color: white;
+}
+.game {
+    float: left;
+    width: 65%;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 16px;
+}
+#name:focus {
+    width: 250px;
+}
+.rules {
+    float: right;
+    width: 25%;
+    background-color: gold;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 16px;
+}
+.rules:hover {
+    background-color: orange;
+    box-shadow: 5px 5px;
+    translate: -2px -2px;
+}

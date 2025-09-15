@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./rockpaperscissors.css">
+</head>
+
+<body>
+    <h1 class="marginals">Lab 3 - Rock Paper Scissors</h1>
+    <ul id="navbar">
+        <li class="navitem"><a href="https://www.w3schools.com/">W3Schools</a></li>
+        <li class="navitem"><a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a></li>
+        <li class="navitem"><a href="https://learn.mit.edu/">MIT Learn</a></li>
+    </ul>
+    <div class="game">
+        <h2>Please choose one of the following.</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="choice">Your choice:</label>
+            <select name="choices" id="choices">
+                <option value="rock">Rock</option>
+                <option value="scissors">Scissors</option>
+                <option value="paper">Paper</option>
+            </select>
+            <br>
+            <input type="submit" id="button">
+        </form>
+    </div>
+    <div class="rules">
+        <h2 id="rule-header">Rules</h2>
+        <p>In a two-player game of rock-paper-scissors, you choose one of these options.</p>
+        <p>The possible combinations are as follows (two of the same move results in a tie):</p>
+        <ul>
+            <li>Rock beats Scissors</li>
+            <li>Scissors beats Paper</li>
+            <li>Paper beats Rock</li>
+        </ul>
+    </div>
+    <p class="marginals">Thank you for trying out this game!</p>
+</body>
+
+</html>
